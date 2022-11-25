@@ -1,0 +1,177 @@
+.accordion-wrapper .accordion-wrap {
+    display: flex;
+}
+
+.accordion-wrapper {
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    padding: 105px 0;
+}
+
+.accordion-wrapper  .left-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #737373;
+    padding-bottom: 6px;
+}
+
+.accordion-wrapper  .left-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 106%;
+    color: #000000;
+}
+
+.accordion-wrapper .accordion-wrap-left {
+    max-width: 478px;
+    width: 100%;
+}
+
+.accordion-wrapper .accordion-wrap-right {
+    max-width: 680px;
+    width: 100%;
+}
+
+.accordion-wrapper  .accordion-repeater-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 106%;
+    color: #737373;
+}
+
+.accordion-wrapper .accordion-repeater-title::after {
+    margin-right: 0;
+    content: '+';
+    color: black;
+    float: right;
+}
+
+.accordion-wrapper .repeater-wrap.active .accordion-repeater-title::after {
+    margin-right: 2px;
+    content: '-';
+    color: black;
+    float: right;
+}
+
+.accordion-wrapper .accordion-repeater-text {
+    display: none;
+}
+
+.accordion-wrapper .repeater-wrap.active .accordion-repeater-text {
+    display: unset;
+}
+
+.accordion-wrapper .repeater-wrap.active .accordion-repeater-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #000000;
+    max-width: 580px;
+    width: 100%;
+}
+
+.accordion-wrapper .repeater-wrap {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+}
+
+.accordion-wrapper .accordion-wrap {
+    display: flex;
+}
+
+.accordion-wrapper {
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    padding: 105px 0;
+}
+
+.accordion-wrapper  .left-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #737373;
+    padding-bottom: 6px;
+}
+
+.accordion-wrapper  .left-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 106%;
+    color: #000000;
+}
+
+.accordion-wrapper .accordion-wrap-left {
+    max-width: 478px;
+    width: 100%;
+}
+
+.accordion-wrapper .accordion-wrap-right {
+    max-width: 680px;
+    width: 100%;
+}
+
+.accordion-wrapper  .accordion-repeater-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 106%;
+    color: #737373;
+}
+
+.accordion-wrapper .accordion-repeater-title::after {
+    margin-right: 0;
+    content: '+';
+    color: black;
+    float: right;
+}
+
+.accordion-wrapper .repeater-wrap.active .accordion-repeater-title::after {
+    margin-right: 2px;
+    content: '-';
+    color: black;
+    float: right;
+}
+
+.accordion-wrapper .accordion-repeater-text {
+    display: none;
+}
+
+.accordion-wrapper .repeater-wrap.active .accordion-repeater-text {
+    display: unset;
+}
+
+.accordion-wrapper .repeater-wrap.active .accordion-repeater-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #000000;
+    max-width: 580px;
+    width: 100%;
+    margin: 20px 0px 0px 0;
+}
+
+.accordion-wrapper .repeater-wrap {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+    background: white;
+}

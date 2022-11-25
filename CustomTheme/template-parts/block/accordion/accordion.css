@@ -1,0 +1,162 @@
+.accordion-wrap {
+    display: flex;
+}
+
+.left-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #737373;
+    padding-bottom: 6px;
+}
+
+  .left-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 106%;
+    color: #000000;
+}
+
+ .accordion-wrap-left {
+    max-width: 478px;
+    width: 100%;
+}
+
+ .accordion-wrap-right {
+    max-width: 680px;
+    width: 100%;
+}
+  .accordion-repeater-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 106%;
+    color: #737373;
+}
+
+ .accordion-repeater-title::after {
+    margin-right: 0;
+    content: '+';
+    color: black;
+    float: right;
+}
+
+ .repeater-wrap.active .accordion-repeater-title::after {
+    margin-right: 2px;
+    content: '-';
+    color: black;
+    float: right;
+}
+
+ .accordion-repeater-text {
+    display: none;
+}
+
+ .repeater-wrap.active .accordion-repeater-text {
+    display: unset;
+}
+
+ .repeater-wrap.active .accordion-repeater-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #000000;
+    max-width: 580px;
+    width: 100%;
+}
+
+ .repeater-wrap {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+}
+
+ .accordion-wrap {
+    display: flex;
+}
+
+  .left-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #737373;
+    padding-bottom: 6px;
+}
+
+  .left-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 106%;
+    color: #000000;
+}
+
+ .accordion-wrap-left {
+    max-width: 478px;
+    width: 100%;
+}
+
+ .accordion-wrap-right {
+    max-width: 680px;
+    width: 100%;
+}
+
+  .accordion-repeater-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 106%;
+    color: #737373;
+}
+
+ .accordion-repeater-title::after {
+    margin-right: 0;
+    content: '+';
+    color: black;
+    float: right;
+}
+
+ .repeater-wrap.active .accordion-repeater-title::after {
+    margin-right: 2px;
+    content: '-';
+    color: black;
+    float: right;
+}
+
+ .accordion-repeater-text {
+    display: none;
+}
+
+ .repeater-wrap.active .accordion-repeater-text {
+    display: unset;
+}
+
+.repeater-wrap.active .accordion-repeater-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+    color: #000000;
+    max-width: 580px;
+    width: 100%;
+    margin: 20px 0px 0px 0;
+}
+
+ .repeater-wrap {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+    background: white;
+}

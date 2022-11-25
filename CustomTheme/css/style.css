@@ -1,0 +1,322 @@
+/*
+    Theme Name: BlueGlass Custom Theme
+    Description: Custom theme for BlueGlass tests
+    Theme URI: https://example.tk
+    Author: Me
+    Author URI: https://example.tk
+    Version: 1.0
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header.header-wrapper {
+    display: flex;
+    max-width: 1180px;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: #FFF;
+}
+
+header.header-wrapper .header.logo {
+    margin: auto 0;
+    padding-right: 96px;
+}
+
+header.header-wrapper .menu-header-container ul#menu-header {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+header.header-wrapper .header.menu {
+    max-width: 978px;
+    width: 100%;
+}
+
+header.header-wrapper li#menu-item-22 {
+    margin-left: auto;
+    
+}
+
+header.header-wrapper ul#menu-header li#menu-item-22 a{
+    color: #FFF;
+    background: #000000;
+    border-radius: 50px;
+    padding: 8px 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+}
+
+header.header-wrapper li#menu-item-13, li#menu-item-9, li#menu-item-14, li#menu-item-15{
+    padding: 0 13px;
+    margin: auto 0px;
+}
+
+header.header-wrapper ul#menu-header li.menu-item a{
+    text-decoration: none;
+    color: #737373;
+}
+
+header.header-wrapper ul#menu-header li#menu-item-9 a {
+    color: #000;
+}
+
+
+
+
+
+footer.footer{
+    background: black;
+}
+
+footer.footer .footer-up {
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top:57px;
+    padding-bottom:90px;
+}
+
+footer.footer .footer-up .section-right {
+    display: flex;
+    max-width: 475px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-down ul#menu-footer {
+    display: flex;
+    padding: 20px 0px;
+    margin: 0;
+}
+
+footer.footer .menu-top-destinations-container ul#menu-top-destinations li#menu-item-58 a, footer.footer .menu-travel-information-container ul#menu-travel-information li#menu-item-57 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer.footer ul#menu-top-destinations, footer.footer .menu-travel-information-container ul#menu-travel-information{
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+footer.footer .menu-top-destinations-container ul#menu-top-destinations li.menu-item a {
+    text-decoration: none;
+    color: #737373;
+}
+
+footer.footer .menu-travel-information-container ul#menu-travel-information li.menu-item a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer-menu-left .footer-menu-left.top-destinations, .footer-menu-right .footer-menu-right.travel-information {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 136%;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+
+footer.footer .menu-travel-information-container ul#menu-travel-information  li#menu-item-59 {
+    padding-top: 75px;
+}
+
+footer.footer .menu-travel-information-container ul#menu-travel-information li#menu-item-59 a{
+    background: #FFFFFF;
+    border-radius: 50px;
+    color: #000;
+    padding: 8px 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 136%;
+}
+
+footer.footer .footer-down {
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid #1C1C1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer.footer .footer-down .menu-footer-container li.menu-item a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 136%;
+    color: #737373;
+    text-decoration: none;
+}
+
+footer.footer .footer-down .menu-footer-container li.menu-item {
+    list-style-type: none;
+}
+
+footer.footer .footer-down .menu-footer-container li#menu-item-55::before {
+    margin:0px 15px;
+    content:'|';
+    color: #737373;
+}
+
+footer.footer .footer-down .menu-footer-container li#menu-item-55::after {
+    margin:0px 15px;
+    content:'|';
+    color: #737373;
+}
+
+footer.footer .footer-down .footer-down-right ul#menu-footer-logo {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+footer.footer  .footer-down .footer-down-right ul#menu-footer-logo a {
+    display: none;
+}
+
+footer.footer  .footer-down .footer-down-right ul#menu-footer-logo li#menu-item-62::after{
+    content:url('../img/Twitter.svg');
+    color:#FFF;
+}
+
+footer.footer  .footer-down .footer-down-right ul#menu-footer-logo li#menu-item-61::after{
+    content:url('../img/Instagram.svg');
+    color:#FFF;
+}
+
+footer.footer  .footer-down .footer-down-right ul#menu-footer-logo li#menu-item-63::after{
+    content:url('../img/Facebook.svg');
+    color:#FFF;
+}
+
+footer.footer  .footer-down .footer-down-right ul#menu-footer-logo li#menu-item-64::after{
+    content:url('../img/Pinterest.svg');
+    color:#FFF;
+}
+
+footer.footer  .footer-down .footer-down-right ul#menu-footer-logo li.menu-item{
+    padding: 0px 9px;
+}
+
+#navOpen{
+    display: none;
+}
+
+.sliderimg img {
+    width: 100%;
+}
+
+.slick-track .sliderimg {
+    width:100%;
+    height:851px;
+    max-width:1920px;
+}
+
+.slick-track .sliderimg img{
+    margin-top: -400px;
+}
+
+.slider-img {display: none};
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .hero-wrapper {
+    overflow-x: hidden;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    right: 0;
+    background-color: #FFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 60px;
+}
+  
+.navmobile ul#menu-header-1 {
+    list-style-type: none;
+}
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #FFF;
+    color: #000;
+    padding: 0px 0px;
+    border: none;
+}
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  .footer-up a.hero-button {
+    display: none;
+  }
