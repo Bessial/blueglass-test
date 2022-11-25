@@ -565,6 +565,22 @@
         outline: none;
         background: transparent;
     }
+
+    .hero-wrapper .hero-wrap.content {
+        position: absolute;
+        top: 65px;
+        padding-left: 31%;
+    }
+
+    .front-page .hero-wrapper .slick-next, .front-page .hero-wrapper .slick-prev{
+        top: 89%;
+    }
+
+    .slick-track .sliderimg{
+        width: 100%;
+        height: 592px;
+        max-width: 1920px;
+    }
 }
 
 @media only screen and (max-width: 440px) {
