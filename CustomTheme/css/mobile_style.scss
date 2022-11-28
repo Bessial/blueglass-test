@@ -1,19 +1,89 @@
+@media only screen and (max-width: 1850px) {
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 79%;
+    }
+}
+
+@media only screen and (max-width: 1780px) {
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 78%;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 78%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 75%;
+    }
+}
+
 @media only screen and (max-width: 1500px) {
     .hero-wrapper .imgcounter {
         position: absolute;
         top: 213px;
-        padding-left: 34.6%;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 136%;
+        z-index: 2;
         color: #FFFFFF;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 2.4%;
+        max-width: 1920px;
     }
 
+}
+
+@media only screen and (max-width: 1450px) {
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 73%;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    section .hero-wrapper .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: 75%;
+        left: 38%;
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin: 0 15.5%;
+        padding: 0% 30% 0%;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -29,7 +99,7 @@
     .hero-wrapper .hero-wrap.content {
         position: absolute;
         top: 197px;
-        padding-left: 28.3%;
+        padding-left: 40vw;
     }
 
     section.front-page .textimg-item {
@@ -64,13 +134,20 @@
         width: 100%;
     }
 
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 70.5%;
+    }
+
 }
 
 @media only screen and (max-width: 1110px) {
     .hero-wrapper .hero-wrap.content {
         position: absolute;
         top: 197px;
-        padding-left: 29.3%;
+        padding-left: 50vw;
     }
 
     body footer.footer {
@@ -97,7 +174,7 @@
     .hero-wrapper .imgcounter {
         position: absolute;
         top: 213px;
-        padding-left: 34%;
+        padding-left: unset;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
@@ -109,13 +186,35 @@
         align-items: center;
     }
 
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 69%;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+    .hero-wrapper .hero-wrap.content {
+        position: absolute;
+        top: 197px;
+        padding-left: 60vw;
+    }
+
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 67%;
+    }
 }
 
 @media only screen and (max-width: 940px) {
     .hero-wrapper .hero-wrap.content {
         position: absolute;
         top: 197px;
-        padding-left: 29.3%;
+        padding-left: 70vw;
     }
 }
 
@@ -144,18 +243,33 @@
 
     ul#menu-header-1 {
         padding: 0;
+        margin-top: 20px;
     }
 
-    .sidebar a {
+    .sidebar ul li a {
         padding: 20px 0px 20px 0px;
         text-decoration: none;
-        font-size: 25px;
-        color: #818181;
         display: block;
         transition: 0.3s;
         text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 136%;
+        color: #737373;
     }
 
+    .sidebar a.closebtn {
+        position: relative;
+        top: 7px;
+        right: 25px;
+        margin-left: auto;
+        font-size: 36px;
+        margin-left: 50px;
+        padding: 0px 0 0 0;
+        text-align: end;
+    }
     li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-22 a {
         padding: 16px 31px;
         font-family: 'Inter';
@@ -171,7 +285,26 @@
         margin-top: 40px;
     }
 
-   
+    .sidebar-bg {
+        position: absolute;
+        opacity: .5;
+        background: black;
+        height: 100%;
+        width: 25%;
+        right: 100%;
+        z-index: 100;
+    }
+
+    .navMenu {
+        padding-top: 0%;
+    }
+
+    .imgcounter .img-counter-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 65%;
+    }
 }
 
 @media only screen and (max-width: 830px) {
@@ -200,7 +333,19 @@
     .hero-wrapper .hero-wrap.content {
         position: absolute;
         top: 197px;
-        padding-left: 31%;
+        padding-left: unset;
+        width: 100%;
+        max-width: 1920px;
+        margin: auto;
+    }
+
+    .hero-section-content-wrap {
+        margin: auto;
+        display: flex;
+        max-width: 1920px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
 
     .hero-wrapper .hero-bottomtext {
@@ -294,7 +439,7 @@
     .hero-wrapper .imgcounter {
         position: absolute;
         top: 213px;
-        padding-left: 34%;
+        padding-left: unset;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
@@ -304,6 +449,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        display: none;
+    }
+
+    .imgcounter .img-counter-wrap {
         display: none;
     }
 }
@@ -324,13 +473,22 @@
         padding:0 20px;
     }
 
-    body .accordion-wrapper .accordion-repeater-title {
+    body .accordion-wrapper .active .accordion-repeater-title {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 106%;
         color: #000000;
+    }
+
+    body .accordion-wrapper .accordion-repeater-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 106%;
+        color: #737373;
     }
 
     body .accordion-wrapper .left-title {
@@ -499,6 +657,48 @@
         line-height: 136%;
         color: #000000;
     }
+
+    
+    .front-page .slick-track .sliderimg {
+        width: 100%;
+        height: 592px;
+        max-width: 887px;
+    }
+
+    .front-page .slick-track .sliderimg img {
+        margin-top: unset;
+        margin-left: -125px;
+        height: 592px;
+    }
+
+    .front-page .hero-wrapper .hero-wrap.content {
+        position: absolute;
+        top: 65px;
+        padding-left: unset;
+        max-width: 887px;
+    }
+
+    .hero-wrapper .hero-subtext {
+        width: 280px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 136%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    body .accordion-wrapper {
+        max-width: unset;
+        width: unset;
+        margin: auto;
+        padding: 45px 20px;
+    }
+
+    .front-page .hero-wrapper .slick-next, .front-page .hero-wrapper .slick-prev {
+        top: 87%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -522,7 +722,7 @@
         line-height: 136%;
         color: #FFFFFF;
         padding-bottom: 10px;
-        padding-left: 45px;
+        padding-left: unset;
     }
 
     .front-page .hero-wrapper .slick-next {
@@ -576,11 +776,6 @@
         top: 89%;
     }
 
-    .slick-track .sliderimg{
-        width: 100%;
-        height: 592px;
-        max-width: 1920px;
-    }
 }
 
 @media only screen and (max-width: 440px) {
