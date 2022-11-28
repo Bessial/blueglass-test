@@ -184,3 +184,37 @@ a.hero-button {
 .imgthingie.num-3 {
     margin-top: 50px;
 }
+
+.rangeslider {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 2px;
+    background: transparent;
+    transition: opacity 0.2s;
+    width: 100px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 45px;
+    transform: rotate(1.5654rad);
+    overflow: hidden;
+}
+
+.rangeslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 3px;
+    height: 41px;
+    background: #FFF;
+    cursor: default;
+    transform: rotate(1.5654rad);
+}
+
+.rangeslider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 3px;
+    height: 41px;
+    background: #FFF;
+    cursor: default;
+    transform: rotate(1.5654rad);
+}

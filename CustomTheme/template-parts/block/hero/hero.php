@@ -56,8 +56,7 @@ $i = 0;
 									<?php endif;?>
 								</span>
 								<div class="sumbigrod">
-									<div class="imgthingie num-<?= $i?>">
-								</div>
+									<input type="range" disabled min="1" max="<?= max(array($count))?>" value="<?= $i?>" class="rangeslider" id="myRange">
 								</div>
 								<span class="imgcounter-num">
 									<?php if( $count < 10):?>
