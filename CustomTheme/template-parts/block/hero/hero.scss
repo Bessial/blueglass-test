@@ -202,19 +202,17 @@ a.hero-button {
 .rangeslider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 3px;
-    height: 41px;
+    width: 41px;
+    height: 3px;
     background: #FFF;
     cursor: default;
-    transform: rotate(1.5654rad);
 }
 
 .rangeslider::-moz-range-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 3px;
-    height: 41px;
+    width: 41px;
+    height: 3px;
     background: #FFF;
     cursor: default;
-    transform: rotate(1.5654rad);
 }
