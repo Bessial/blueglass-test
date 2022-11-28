@@ -12,8 +12,8 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <script>  
         function openNav() {
-            document.getElementById("mySidebar").style.width = "75%";
-            document.getElementById("navOpen").style.marginLeft = "75%";
+            document.getElementById("mySidebar").style.width = "81%";
+            document.getElementById("navOpen").style.marginLeft = "81%";
         }
         function closeNav() {
             document.getElementById("mySidebar").style.width = "0";
@@ -25,7 +25,7 @@
 <body>
     <header class="header-wrapper">
         <div class="header logo">
-            <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>"><img src="<?php echo wp_get_attachment_url(get_field('logo', 'option')); ?>"></a>
+            <a href="<?= get_home_url(); ?>"><img src="<?= wp_get_attachment_url(get_field('logo', 'option')); ?>"></a>
         </div>
         
         <div class="header menu">
@@ -37,15 +37,18 @@
         </div>
 
         <div id="navOpen">
-            <button class="openbtn" onclick="openNav()">☰</button>  
+            <button class="openbtn" onclick="openNav()"><?= get_field('open_mobile_nav', 'option')?></button>  
             <div class="navmobile">
                 <div id="mySidebar" class="sidebar">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <?php wp_nav_menu( array(
-                        'menu' => 'Header'
-                        )
-                    );
-                    ?>
+                    <div class="sidebar-bg"></div>
+                    <div class="navMenu">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><?= get_field('close_mobile_nav', 'option')?></a>
+                        <?php wp_nav_menu( array(
+                            'menu' => 'Header'
+                            )
+                        );
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>
