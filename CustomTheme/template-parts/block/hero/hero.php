@@ -35,62 +35,60 @@ $i = 0;
 		<?php if( have_rows('repeater') ): ?>
 			<div class="slider">
 				<?php while( have_rows('repeater') ): the_row();
-				 $image = get_sub_field('images');
-				 $title = get_sub_field('title');
-				 $subtext = get_sub_field('subtext');
-				 $link = get_sub_field('button');
-				 $link_title = $link['title'];
-				 $link_url = $link['url'];
-				 $i++;$a = array($i)?>
-				
-					<div class="sliderimg">
+					$image = get_sub_field('images');
+					$title = get_sub_field('title');
+					$subtext = get_sub_field('subtext');
+					$link = get_sub_field('button');
+					$link_title = $link['title'];
+					$link_url = $link['url'];
+					$i++;
+					$count = count(get_field('repeater'));
+				?>
+				<div class="sliderimg">
 					<?= wp_get_attachment_image( $image['id'], 'full' ); ?>
 						<div class="imgcounter">
-							<?php if($i == 1): ?>
-								<span class="imgcounter-num">0<?= $i?></span>
+							<div class="img-counter-wrap">
+								<span class="imgcounter-num">
+									<?php if($i < 10):?>
+										0<?= $i?>
+									<?php else:?>
+										<?= $i?>
+									<?php endif;?>
+								</span>
 								<div class="sumbigrod">
 									<div class="imgthingie num-<?= $i?>">
-									</div>
 								</div>
-								<span class="imgcounter-num">03</span>
-							<?php elseif($i == 2):?>
-								<span class="imgcounter-num">0<?= $i?></span>
-								<div class="sumbigrod">
-									<div class="imgthingie num-<?= $i?>">
-									</div>
 								</div>
-								<span class="imgcounter-num">03</span>
-							<?php elseif($i == 3):?>
-								<span class="imgcounter-num">0<?= $i?></span>
-								<div class="sumbigrod">
-									<div class="imgthingie num-<?= $i?>">
-									</div>
-								</div>
-								<span class="imgcounter-num">03</span>
-							<?php endif;?>
+								<span class="imgcounter-num">
+									<?php if( $count < 10):?>
+										0<?= max(array($count))?>
+									<?php else:?>
+										<?= max(array($count))?>
+									<?php endif;?>
+								</span>
+							</div>
 						</div>
 						<div class="hero-wrap content">
-						
-
-							<div class="hero-title"><?= $title?></div>
-							<div class="hero-subtext"><?= $subtext?></div>
-							<div class="hero-button-wrap">
-								<?php if( $link ): ?>
-									<a class="hero-button" href="<?= $link_url ?>"><?= $link_title?></a>
-								<?php endif; ?>
+							<div class="hero-section-content-wrap">
+								<div class="hero-title"><?= $title?></div>
+								<div class="hero-subtext"><?= $subtext?></div>
+								<div class="hero-button-wrap">
+									<?php if( $link ): ?>
+										<a class="hero-button" href="<?= $link_url ?>"><?= $link_title?></a>
+									<?php endif; ?>
+								</div>
+								<div class="bottom-texts-wrap">
+									<?php if(have_rows('bottom-texts') ):?>
+										<?php while(have_rows('bottom-texts') ): the_row()?>
+											<div class="hero-bottomtext"><?= get_sub_field('text')?></div>
+										<?php endwhile;?>
+									<?php endif;?>
+								</div>
 							</div>
-							<?php if(have_rows('bottom-texts') ):?>
-								<?php while(have_rows('bottom-texts') ): the_row()?>
-									<div class="hero-bottomtext"><?= get_sub_field('text')?></div>
-								<?php endwhile;?>
-							<?php endif;?>
 						</div>
 					</div>
-					
 				<?php endwhile; ?>
 			</div>
-
-		
 		<?php endif; ?>
 	</div>
 </div>

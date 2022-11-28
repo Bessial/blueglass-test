@@ -139,19 +139,30 @@ a.hero-button {
     left: 31%;
 }
 
-.imgcounter {
+.hero-wrapper .imgcounter {
     position: absolute;
     top: 213px;
-    padding-left: 35.6%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 136%;
+    z-index: 2;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    margin-left: unset;
+    max-width: 1920px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.img-counter-wrap {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding-left: 80%;
 }
 
 .sumbigrod {
